@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+
+}
+
+
+
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#log{
+    display: inline-block;
+    width: 550px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 16px;
+
+   transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    
+}
+
+#log:hover{
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    border-radius: 50%;
+    -ms-transform-origin-x:100%
+    
+}
+
+
+
+
+
+.layer{
+    width: 2000px;
+    height: 550px;
+    background: linear-gradient(to right, black, #7303c0, black);   
+    color: pink;
+    font-size: 750%;
+    font-family:monospace;
+    text-align:center;
+}
+
+
+#menu {
+    font-size:xx-large;
+    font-family: monospace;
+    
+
+}
+
+
+.menu1, .menu2, .menu3, .menu4, .menu5 {
+    margin: 20px;
+    border: 5px solid white;
+    font-size: 250%;
+    background-color: pink;
+
+}
+
+
+#buscador {
+    font-size:250%;
+    width: 30%;
+    height: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 10px solid gray;
+    background-color: pink;
+    font-family: monospace;
+}
+
+#subtitulos {
+    font-size: 800%;
+    color: pink;
+}
+
+.novedadImagen1{
+    width: 400px;
+}
+
+.novedadImagen2{
+    width: 400px
+}
+
+.textNovedad{
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid gray;
+
+}
+
+
+.flexboxguitarra{
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+}
+
+.guitarritas img{
+    width: 400px;
+}
+
+.flexbox3{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    max-width: 500px;
+}
+
+#luthiers{
+    display: flex;
+    flex-direction: row;
+}
+
